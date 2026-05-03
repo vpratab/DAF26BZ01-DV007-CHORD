@@ -1,0 +1,61 @@
+    Finished `release` profile [optimized] target(s) in 0.01s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.01s
+     Running unittests src/main.rs (target/debug/deps/eval_tool-5a6c25553c43b3b5)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (target/debug/deps/replay_tool-b68a085019f70aa4)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/rtvlas_bindings-bffac18782128c88)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/rtvlas_core-848213233623daa9)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/profile_tests.rs (target/debug/deps/profile_tests-560dcb4024ed770a)
+
+running 7 tests
+test operator_intent_alignment_raises_signal ... ok
+test temporal_continuity_raises_signal ... ok
+test decision_latency_raises_signal ... ok
+test mission_plan_validity_raises_signal ... ok
+test evidence_completeness_raises_signal ... ok
+test reject_path_drops_trust ... ok
+test evidence_pipeline_writes_expected_files ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests rtvlas_bindings
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests rtvlas_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+    Finished `release` profile [optimized] target(s) in 0.01s
+     Running `target/release/eval_tool scenario_01_clean_mission_review scenarios/scenario_01_clean_mission_review.jsonl evidence/scenario_01_clean_mission_review`
+scenario=scenario_01_clean_mission_review frames=60 final_trust=1.000 first_reject=None
+    Finished `release` profile [optimized] target(s) in 0.01s
+     Running `target/release/eval_tool scenario_02_operator_mismatch scenarios/scenario_02_operator_mismatch.jsonl evidence/scenario_02_operator_mismatch`
+scenario=scenario_02_operator_mismatch frames=60 final_trust=0.196 first_reject=None
+    Finished `release` profile [optimized] target(s) in 0.01s
+     Running `target/release/eval_tool scenario_03_evidence_gap_chain scenarios/scenario_03_evidence_gap_chain.jsonl evidence/scenario_03_evidence_gap_chain`
+scenario=scenario_03_evidence_gap_chain frames=60 final_trust=0.000 first_reject=Some(20)
+submission_package ready at /Users/giansingh/Documents/GitHub/DAF26BZ01-DV007-CHORD/submission_package

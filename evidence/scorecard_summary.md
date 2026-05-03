@@ -1,8 +1,8 @@
 # Evidence Scorecard Summary
 
 - Topic: `DAF26BZ01-DV007 CHORD`
-- Generated: `2026-05-03T04:53:36Z`
-- Git Head: `UNCOMMITTED_SCAFFOLD`
+- Generated: `2026-05-03T04:54:54Z`
+- Git Head: `306da8453a2a29d975497c2af7a5bdc49c2f8ebb`
 - Scenario Pass Rate: `3/3 (100.0%)`
 - Evidence Type: `deterministic synthetic autonomy traces for submission-stage feasibility review`
 
