@@ -1,0 +1,18 @@
+{
+  "topic_id": "DAF26BZ01-DV007",
+  "title": "CHORD",
+  "scenario_name": "scenario_02_operator_mismatch",
+  "total_frames": 60,
+  "accept_frames": 30,
+  "flag_frames": 30,
+  "reject_frames": 0,
+  "min_trust_score": 0.19599952,
+  "final_trust_score": 0.19599952,
+  "first_reject_frame": null,
+  "violations_by_property": {
+    "Collaborative Timeline Continuity": 30,
+    "Debrief Evidence Completeness": 30,
+    "Decision Chain Latency Bound": 30,
+    "Human-ACP Intent Alignment": 30
+  }
+}

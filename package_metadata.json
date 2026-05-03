@@ -1,0 +1,13 @@
+{
+  "topic_id": "DAF26BZ01-DV007",
+  "title": "CHORD",
+  "repo_name": "DAF26BZ01-DV007-CHORD",
+  "solicitation_track": "Direct-to-Phase-II style topic (confirm against official DSIP release at submission time)",
+  "solicitation_objective": "Provide a common operational review capability that fuses ACP and human decision data into shared playback, event, map, and status products for mission debrief and trust assessment.",
+  "source_basis": "Public pre-release mirrors for DAF26BZ01-DV007; validate final wording against the official DSIP topic PDF before submission.",
+  "opening_angle": "autonomy black-box recorder; decision review layer; operator trust and mission reconstruction tool",
+  "delivery": "Traceable mission-review software that ingests autonomy outputs and produces operator-reviewable evidence with a static HTML viewer, replay tooling, and structured proof logs.",
+  "short_pitch": "RTVLAS adapted into a traceable mission-review system that reconstructs autonomy decisions, scores trust over time, and exposes exactly why a mission sequence should be questioned by an operator or evaluator.",
+  "viewer": true,
+  "phase2_transition": "Connect CHORD evidence generation to live autonomy buses, expand the operator review surface, and integrate with mission analysis/debrief workflows."
+}

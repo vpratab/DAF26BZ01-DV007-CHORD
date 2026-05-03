@@ -1,0 +1,13 @@
+{
+  "topic_id": "DAF26BZ01-DV007",
+  "title": "CHORD",
+  "scenario_name": "scenario_01_clean_mission_review",
+  "total_frames": 60,
+  "accept_frames": 60,
+  "flag_frames": 0,
+  "reject_frames": 0,
+  "min_trust_score": 1.0,
+  "final_trust_score": 1.0,
+  "first_reject_frame": null,
+  "violations_by_property": {}
+}

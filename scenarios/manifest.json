@@ -1,0 +1,26 @@
+[
+  {
+    "id": "scenario_01_clean_mission_review",
+    "label": "Clean Human-ACP Debrief",
+    "summary": "Well-instrumented collaborative autonomy timeline with stable human intent alignment and complete evidence.",
+    "mode": "nominal",
+    "input": "scenarios/scenario_01_clean_mission_review.jsonl",
+    "output": "evidence/scenario_01_clean_mission_review"
+  },
+  {
+    "id": "scenario_02_operator_mismatch",
+    "label": "Commander Intent Divergence",
+    "summary": "Autonomy diverges from commander intent during a late replan, generating reviewable trust erosion without full replay failure.",
+    "mode": "degraded",
+    "input": "scenarios/scenario_02_operator_mismatch.jsonl",
+    "output": "evidence/scenario_02_operator_mismatch"
+  },
+  {
+    "id": "scenario_03_evidence_gap_chain",
+    "label": "Broken Debrief Chain",
+    "summary": "Mission replay suffers severe evidence gaps and invalid mission-plan state, forcing a reject-grade operational review outcome.",
+    "mode": "fault",
+    "input": "scenarios/scenario_03_evidence_gap_chain.jsonl",
+    "output": "evidence/scenario_03_evidence_gap_chain"
+  }
+]
